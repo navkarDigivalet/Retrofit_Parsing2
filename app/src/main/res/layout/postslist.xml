@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUserId"
+        android:text="User Id"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtUserId"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/edtUserId"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtId"
+        android:text=" Id"
+        app:layout_constraintTop_toBottomOf="@+id/edtUserId"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtId"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/edtId"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:text="Title"
+        app:layout_constraintTop_toBottomOf="@+id/edtId"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/edtTitle"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBody"
+        android:text="Body"
+        app:layout_constraintTop_toBottomOf="@+id/edtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtBody"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/edtBody"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
